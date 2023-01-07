@@ -1,0 +1,326 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Ejercicio de maquetación Email</title>
+  <meta name="author" content="Èric Salat">
+  <meta name="description" content="Un ejemplo de maquetación de una newsletter">
+  <style type="text/css">
+    @import url('https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap');
+
+    @media (max-width: 640px) {
+      .gender-nav {
+        display: none !important;
+      }
+
+      .nav {
+        justify-content: center !important;
+      }
+
+      .main,
+      tr,
+      td #section-one,
+      #section-two {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center !important;
+        text-align: center;
+      }
+
+      #section-two p,
+      #section-three p {
+        text-align: left !important;
+      }
+
+      p,
+      h1,
+      a {
+        text-align: center !important;
+      }
+
+      img {
+        width: 90vw;
+      }
+
+      table {
+        width: 95vw;
+      }
+
+      .secondaryButton {
+        margin-bottom: 2rem;
+      }
+
+      #section-three img {
+        width: 200;
+      }
+
+      #img-icon {
+        height: 100px !important;
+        width: 25vw !important;
+      }
+
+      #section-four p {
+        text-align: left !important;
+        padding-left: 40px !important;
+      }
+
+      #section-five img {
+        width: 50vw;
+      }
+
+      .gender-nav-footer {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center !important;
+      }
+
+      .gender-nav-footer a {
+        padding-left: 0 !important;
+      }
+    }
+
+    @media (min-width: 641px) {
+      .gender-nav-footer {
+        display: none !important;
+      }
+    }
+  </style>
+</head>
+
+<body>
+
+  <table width="100%" cellspacing="0" cellpadding="0" border="0" class="main" style="max-width: 600px; margin: 0 auto;">
+    <tr>
+      <td style="padding-bottom: 0; padding-top: 20px;" valign="top" align="center">
+        <header>
+          <nav class="nav" style="width: 642px; display: flex; justify-content: space-between; align-items: baseline;">
+            <p class="logo" style="font-family: 'Lato', sans-serif;"><a href="#"
+                style="font-family: 'Lato', sans-serif; text-decoration: none; color: #000; font-size: 1.5rem;">BRANDX</a>
+            </p>
+            <div class="gender-nav" style="display: flex; ">
+              <p style="font-family: 'Lato', sans-serif;"><a href="#"
+                  style="color: #6b8474; font-family: 'Lato', sans-serif;">MAN</a></p>
+              <p style="font-family: 'Lato', sans-serif;"><a href="#"
+                  style="color: #6b8474; font-family: 'Lato', sans-serif; padding-left: 30px;">WOMAN</a></p>
+            </div>
+          </nav>
+        </header>
+
+        <table id="section-one" style="margin-bottom: 2rem; display: flex;">
+          <tr>
+            <td class="hero"
+              style="padding-top: 0; padding-bottom: 0; width: 640px; height: 414px; display: flex; align-items: flex-end; justify-content: center; background: url('../img/hero.png');"
+              width="640" height="414">
+              <h1
+                style="font-weight: 900; color: #fff; font-size: 2.8rem; letter-spacing: 1px; font-family: Lato, 'sans-serif';">
+                PREPARE THE JOURNEY</h1>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-top: 0; padding-bottom: 0; font-size: 1.1rem; text-align: left; padding: 0 23px;"
+              align="left">
+              <p style="font-family: 'Lato', sans-serif;">Lorem ipsum dolor sit ame, consectetur adipisicing elit, sed
+                do eiusmod tempor incididunt labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehendit in voluptate velit esse cillum dolore eu</p>
+            </td>
+          </tr>
+          <tr>
+            <td style="padding-top: 0; padding-bottom: 0;">
+              <a href="#">
+                <button class="mainButton"
+                  style="background-color: #a9c9bf; color: #fff; font-size: 1.5rem; font-weight: bold; padding: 10px 50px; border: 0;">LOREM</button>
+              </a>
+            </td>
+          </tr>
+
+        </table>
+
+        <table class="separador" style="margin-bottom: 1rem; margin-left: 0; margin-right: 0; padding: 0;">
+          <tr>
+            <td height="1" width="640" style="padding-top: 0; padding-bottom: 0; background-color: #c6d0ca;"
+              bgcolor="#c6d0ca"></td>
+          </tr>
+        </table>
+
+        <table id="section-two" width="100%" cellspacing="0" cellpadding="20" border="0"
+          style="margin-bottom: 3rem; display: flex;">
+          <tbody style="display: flex; flex-direction: column">
+            <tr>
+              <td style="padding-top: 0; padding-bottom: 0;">
+                <img src="../img/1.png" alt="Cartel de una cafeteria" title="Cartel de una cafeteria" style="max-width: 100%; height: auto;">
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-top: 0; padding-bottom: 0;">
+                <p style="font-family: 'Lato', sans-serif; text-align: left;">Lorem ipsum dolor sit amet, consectetur
+                  adipiscing alit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-top: 0; padding-bottom: 0;">
+                <a href="#">
+                  <button class="secondaryButton"
+                    style="background-color: #c8cda4; color: #fff; font-size: 1.5rem; font-weight: bold; padding: 10px 50px; border: 0;">LOREM</button>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody style="display: flex; flex-direction: column">
+            <tr>
+              <td style="padding-top: 0; padding-bottom: 0;">
+                <img src="../img/2.png" alt="Un sofá en un comedor" title="Un sofá en un comedor" style="max-width: 100%; height: auto;">
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-top: 0; padding-bottom: 0;">
+                <p style="font-family: 'Lato', sans-serif; text-align: left;">Lorem ipsum dolor sit amet, consectetur
+                  adipiscing alit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-top: 0; padding-bottom: 0;">
+                <a href="#">
+                  <button class="secondaryButton"
+                    style="background-color: #c8cda4; color: #fff; font-size: 1.5rem; font-weight: bold; padding: 10px 50px; border: 0;">LOREM</button>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+          <tbody style="display: flex; flex-direction: column">
+            <tr>
+              <td style="padding-top: 0; padding-bottom: 0;">
+                <img src="../img/3.png" alt="Una bicicleta con un ramo de flores en la cesta" title="Una bicicleta con un ramo de flores en la cesta" style="max-width: 100%; height: auto;">
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-top: 0; padding-bottom: 0;">
+                <p style="font-family: 'Lato', sans-serif; text-align: left;">Lorem ipsum dolor sit amet, consectetur
+                  adipiscing alit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-top: 0; padding-bottom: 0;">
+                <a href="#">
+                  <button class="secondaryButton"
+                    style="background-color: #c8cda4; color: #fff; font-size: 1.5rem; font-weight: bold; padding: 10px 50px; border: 0;">LOREM</button>
+                </a>
+              </td>
+            </tr>
+          </tbody>
+        </table>
+
+        <table>
+
+          <table id="section-three" style="display: flex;">
+            <tbody style="width: 300">
+              <tr>
+                <td style="padding-top: 0; padding-bottom: 0;">
+                  <img src="../img/4.png" alt="Una bicicleta aparcada en la calle" tilte="Una bicicleta aparcada en la calle" style="max-width: 100%; height: auto;">
+                </td>
+              </tr>
+              <tr>
+                <td style="padding-top: 0; padding-bottom: 0;">
+                  <p style="font-family: 'Lato', sans-serif; text-align: left; padding: 0 20px;">Lorem ipsum, dolor sit
+                    amet consectetur adipisicing elit. Pariatur ipsa commodi exercitationem ea nobis dignissimos
+                    repellat amet excepturi odio quibusdam ex, deleniti adipisci? Cumque adipisci dignissimos cum ullam
+                    odio in.</p>
+                </td>
+              </tr>
+
+              <tr>
+                <td style="padding-top: 0; padding-bottom: 0; text-align: left; padding: 0 20px;" align="left">
+                  <a href style="color: #6b8474; font-family: 'Lato', sans-serif;">Lorem Ipsum ></a>
+                </td>
+              </tr>
+            </tbody>
+            <tr>
+              <td style="padding-top: 0; padding-bottom: 0;">
+                <img src="../img/5.png" alt="Una cámara de fotos" title="Una cámara de fotos" width="300" style="max-width: 100%; height: auto;">
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-top: 0; padding-bottom: 0;">
+                <p style="font-family: 'Lato', sans-serif; text-align: left; padding: 0 20px;">Lorem ipsum, dolor sit
+                  amet consectetur adipisicing elit. Pariatur ipsa commodi exercitationem ea nobis dignissimos repellat
+                  amet excepturi odio quibusdam ex, deleniti adipisci? Cumque adipisci dignissimos cum ullam odio in.
+                </p>
+              </td>
+            </tr>
+            <tr>
+              <td style="padding-top: 0; padding-bottom: 0; text-align: left; padding: 0 20px;" align="left">
+                <a href style="color: #6b8474; font-family: 'Lato', sans-serif;">Lorem Ipsum ></a>
+              </td>
+            </tr>
+
+          </table>
+          <!-- Separador-->
+          <table class="separador"
+            style="margin-bottom: 1rem; margin-left: 0; margin-right: 0; padding: 0; margin-top: 1rem;">
+            <tr>
+              <td height="1" width="640" style="padding-top: 0; padding-bottom: 0; background-color: #c6d0ca;"
+                bgcolor="#c6d0ca"></td>
+            </tr>
+          </table>
+
+          <div id="section-four" style="display: flex; align-items: center; padding: 5px 30px">
+            <div>
+              <img id="img-icon" src="../img/icon.png" alt style="max-width: 100%; height: auto; margin: 0 30px 0 10px;">
+            </div>
+            <div>
+              <p style="font-family: 'Lato', sans-serif; padding-left: 3rem; text-align: left;"><b>¿Necesitas ayuda?</b>
+              </p>
+              <p style="font-family: 'Lato', sans-serif; padding-left: 3rem; text-align: left;">Lorem ipsum dolor sit
+                amet, consectetur adipiscing alit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+              </p>
+            </div>
+          </div>
+
+
+          <!-- Separador-->
+          <table class="separador" width="max-width"
+            style="margin-bottom: 1rem; margin-left: 0; margin-right: 0; padding: 0;">
+            <tr>
+              <td height="10" width="642" style="padding-top: 0; padding-bottom: 0; background-color: #6b8474;"
+                bgcolor="#6b8474"></td>
+            </tr>
+          </table>
+
+          <!-- Footer-->
+          <table id="section-five">
+            <div class="gender-nav-footer" style="display: flex; ">
+              <p style="font-family: 'Lato', sans-serif;"><a href
+                  style="color: #6b8474; font-family: 'Lato', sans-serif;">MAN</a></p>
+              <p style="font-family: 'Lato', sans-serif;"><a href
+                  style="color: #6b8474; font-family: 'Lato', sans-serif; padding-left: 30px;">WOMAN</a></p>
+            </div>
+            <tr>
+              <td style="padding-top: 0; padding-bottom: 0; display: flex; justify-content: center;">
+                <img src="../img/redes sociales.png" alt="Redes sociales" title="Redes sociales" width="198" height="37"
+                  style="max-width: 100%; height: auto; margin-top: 20px;">
+              </td>
+            </tr>
+            <tr>
+              <td
+                style="padding-top: 0; padding-bottom: 0; display: flex; justify-content: center; text-align: center; color: #c0c0c0;"
+                align="center">
+                <p style="font-family: 'Lato', sans-serif; padding: 0 40px;">Lorem ipsum dolor sit amet, consectetur
+                  adipiscing alit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+              </td>
+            </tr>
+          </table>
+        </table>
+      </td>
+    </tr>
+
+  </table>
+
+</body>
+
+</html>
